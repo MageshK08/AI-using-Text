@@ -5,7 +5,7 @@ if Num<2:
 else:
     c=2
     while c*c<=Num:
-        if Num<c==0:
+        if Num%c==0:
             print("Not Prime")
             break
         c+=1
